@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyclassiccrafting",
+  "version": "${version}",
+  "name": "Legacy Classic Crafting (Standalone)",
+  "description": "A lightweight Legacy Console-inspired recipe picker for the vanilla crafting table, without Legacy4J.",
+  "authors": ["Standalone implementation based on ideas in Legacy4J by Wilyicaro"],
+  "license": "LGPL-3.0-or-later",
+  "environment": "client",
+  "mixins": ["legacyclassiccrafting.client.mixins.json"],
+  "depends": { "fabricloader": ">=0.20.1", "minecraft": "~26.3", "java": ">=25" }
+}
